@@ -1,0 +1,45 @@
+.easy-portion-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.easy-portion-title {
+    font-size: 1.25rem;
+    padding-top: 1em;
+}
+
+.easy-portion-content {
+    width: 80%;
+    margin: auto;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+    .easy-card-component {
+        width: 20%;
+    }
+    .easy-portion-img-container {
+        justify-content: flex-start;
+        width: 100%;
+        padding-top: 3em;
+    }
+    .easy-portion-title {
+        width: 100%;
+        font-size: 1.25rem;
+        padding-top: 1em;
+        text-align: left;
+    }
+    .easy-portion-content {
+        width: 80%;
+        padding-top: .5em;
+        padding-bottom: 1.5em;
+        text-align: left;
+        margin-left: 0;
+    }
+}

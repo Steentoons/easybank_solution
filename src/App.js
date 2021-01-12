@@ -9,6 +9,12 @@ import './App.css';
  
 import Button from "./components/js/Button"
 import Ul from "./components/js/Ul"
+import Easycard from "./components/js/Easycard"
+
+import Api from "./images/icon-api.svg"
+import Budgeting from "./images/icon-budgeting.svg"
+import Onboarding from "./images/icon-onboarding.svg"
+import Online from "./images/icon-online.svg"
 
 function App() {
     const [BarVisible, setBarVisible] = useState(true) 
@@ -91,8 +97,40 @@ function App() {
       </div>
 
       <div className="why-chose-easybank-container">
-        <div className="why-chose-easybank-title title">Why choose Easybank ?</div>
-        <div className="why-chose-easybank-content paragraph">We leverage Open banking to turn your bank account into a financial hub. Control your finances like never before.</div>
+        <div className="why-chose-easy-bank-div">
+          <div className="why-chose-easybank-title title">Why choose Easybank ?</div>
+          <div className="why-chose-easybank-content paragraph">We leverage Open banking to turn your bank account into a financial hub. Control your finances like never before.</div>
+        </div>
+      </div>
+
+      <div className="second-portion-container">
+        <div className="second-portion-div">
+
+          <Easycard 
+            source={Online} 
+            title="Online Banking"
+            content="Our modern web and monile applications allow you to keep track of your finances whenever you arein the world."
+          />
+
+          <Easycard 
+            source={Budgeting} 
+            title="Simple Budgeting"
+            content="See exactly where your money goes each month. Recive notifications when you're close to hittingyour limits."
+          />
+
+          <Easycard 
+            source={Onboarding} 
+            title="Fast Onboarding"
+            content={"We don't do branches. Open account in minutes online and start taking control of your financesright away."}
+          />
+
+          <Easycard 
+            source={Api}
+            title="Open API"
+            content="Manage your savings, investments, pension, and much more from one account. Tracking your moneyhas never been easier."
+          />
+
+        </div>
       </div>
     </div>
   )
