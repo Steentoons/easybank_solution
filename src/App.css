@@ -52,6 +52,40 @@ body {
     cursor: pointer;
 }
 
+.mobile-nav-list-container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+}
+
+.mobile-nav-list-div {
+    width: 100%;
+    position: absolute;
+    z-index: +3;
+    background: white;
+    margin-top: 6.5em;
+    padding-bottom: 1.5em;
+    padding-top: .5em;
+}
+
+.mobile-nav-list-div ul {
+    text-align: center;
+    padding-left: 0;
+}
+
+.mobile-nav-list-div li {
+    cursor: pointer;
+}
+
+.mobile-nav-actual-list {
+    padding-top: 1em;
+}
+
+.mobile-nav-list-container ul {
+    margin: 0;
+}
+
 .nav-actual-list::after {
     box-sizing: border-box;
     content: "";
