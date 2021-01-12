@@ -1,0 +1,13 @@
+.btn {
+    background: linear-gradient(to right, #31D35C, #2BB7DA);
+    cursor: pointer;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1em 2em;
+    font-size: 0.81rem;
+    color: white;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #8CE6A5, #89D7EA);
+}

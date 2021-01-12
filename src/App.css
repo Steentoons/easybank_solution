@@ -1,0 +1,226 @@
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-weight: 400;
+    color: black;
+}
+
+.paragraph {
+    text-align: center;
+    font-weight: 300;
+    color: #9698A6;
+}
+
+.container {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+.nav-list-container {
+    display: none;
+    box-sizing: border-box;
+    padding: 0 .5em;
+    width: 45%;
+}
+
+.nav-list-div-holder {
+    width: 100%;
+    margin-top: 0;
+}
+
+.nav-list-div-holder ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-actual-list {
+    box-sizing: border-box;
+    height: 5.5em;
+    padding-top: 2em;
+    cursor: pointer;
+}
+
+.nav-actual-list::after {
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    height: 2.3em;
+    width: 0%;
+    border-bottom: solid #31D35C 4px;
+    margin-top: 30;
+    transition: 0.3s;
+}
+
+.nav-actual-list:hover:after {
+    width: 100%;
+}
+
+
+/* .nav-actual-list:hover {
+    border-bottom: solid #31D35C 4px;
+    transition: border-width 0.6s linear;
+} */
+
+.nav-list-div-holder li {
+    list-style: none;
+}
+
+.navigation-container {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: +3;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6em;
+    height: 5.5em;
+}
+
+.easybank-logo {
+    padding-top: 2em;
+}
+
+.not-visible {
+    display: none;
+}
+
+.nav-desktop-button {
+    display: none;
+}
+
+.top-content-container {
+    width: 100%;
+    background: #FAFAFA;
+}
+
+.nav-phone-button {
+    padding: 2em 1em;
+    cursor: pointer;
+}
+
+.top-content {
+    position: relative;
+    width: 100%;
+}
+
+.creative-gradient {
+    width: 100%;
+    max-height: 21.5em;
+    margin: auto;
+    overflow: hidden;
+}
+
+.creative-gradient img {
+    width: 100%;
+}
+
+.phone-mockups {
+    position: absolute;
+    z-index: +2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5em;
+}
+
+.phone-mockups img {
+    width: 22em;
+}
+
+.request-invite-container {
+    box-sizing: border-box;
+    width: 100%;
+    background: #FAFAFA;
+    padding: 5.5em 2em;
+}
+
+.request-invite-title {
+    font-size: 2rem;
+}
+
+.request-invite-content {
+    font-size: 1rem;
+    padding-top: 1.5em;
+}
+
+.request-invite-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5em;
+}
+
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    .nav-desktop-button {
+        display: flex;
+        align-items: center;
+    }
+    .nav-phone-button {
+        display: none;
+    }
+    .nav-list-container {
+        display: block;
+    }
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 1300px) {
+    .top-content-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .request-invite-container {
+        width: 50%;
+        padding-left: 6.5em;
+        margin-top: 8em;
+    }
+    .request-invite-title {
+        width: 100%;
+        font-size: 3.25rem;
+        text-align: left;
+    }
+    .request-invite-content {
+        text-align: left;
+        width: 70%;
+    }
+    .request-invite-button {
+        justify-content: flex-start;
+    }
+    .top-content {
+        box-sizing: border-box;
+        width: 65%;
+    }
+    .creative-gradient {
+        box-sizing: border-box;
+        min-height: 40em;
+    }
+    .phone-mockups {
+        margin-top: 0;
+    }
+    .creative-gradient img {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .phone-mockups img {
+        position: absolute;
+        width: 48em;
+    }
+}
