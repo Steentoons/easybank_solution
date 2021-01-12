@@ -213,6 +213,12 @@ body {
     .mobile-nav-list-container {
         display: none;
     }
+    .phone-mockups img {
+        width: 26.5em;
+    }
+    .phone-mockups {
+        margin-top: -5.3em;
+    }
 }
 
 
