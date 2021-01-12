@@ -284,6 +284,10 @@ body {
     font-weight: 400;
 }
 
+.social-icons-div {
+    cursor: pointer;
+}
+
 
 /* TABLET */
 
@@ -309,6 +313,31 @@ body {
     }
     .phone-mockups {
         margin-top: -5.3em;
+    }
+    .easy-bank-footer-div {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .easy-bank-footer-request-invite {
+        margin-top: 3em;
+    }
+    .footer-ul {
+        margin-top: 3em;
+    }
+    .footer-ul li {
+        text-align: left;
+    }
+    .footer-ul li:hover {
+        color: #31D35C;
+    }
+    .easy-bank-footer-logo img {
+        margin-top: 2em;
+    }
+    .easy-bank-footer-request-invite {
+        justify-content: flex-end;
     }
 }
 
