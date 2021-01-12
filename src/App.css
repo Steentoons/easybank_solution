@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: white;
     padding: 0;
     margin: 0;
 }
@@ -193,6 +193,22 @@ body {
     padding-top: 1.5em;
 }
 
+.why-chose-easybank-container {
+    width: 100%;
+    background: #F3F4F6;
+    padding: 2.5em 0;
+}
+
+.why-chose-easybank-title {
+    font-size: 1.5rem;
+}
+
+.why-chose-easybank-content {
+    width: 80%;
+    margin: auto;
+    padding-top: 1.5em;
+}
+
 
 /* TABLET */
 
@@ -270,5 +286,22 @@ body {
     }
     .navigation-container {
         padding: 0 5em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .why-chose-easybank-container {
+        box-sizing: border-box;
+        padding-left: 6.5em;
+    }
+    .why-chose-easybank-title {
+        width: 40%;
+        text-align: left;
+        font-size: 2rem;
+    }
+    .why-chose-easybank-content {
+        width: 40%;
+        text-align: left;
+        margin-left: 0;
     }
 }

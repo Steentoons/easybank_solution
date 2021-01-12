@@ -89,6 +89,11 @@ function App() {
         </div>
 
       </div>
+
+      <div className="why-chose-easybank-container">
+        <div className="why-chose-easybank-title title">Why choose Easybank ?</div>
+        <div className="why-chose-easybank-content paragraph">We leverage Open banking to turn your bank account into a financial hub. Control your finances like never before.</div>
+      </div>
     </div>
   )
 }
