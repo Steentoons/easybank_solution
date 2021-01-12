@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: #FAFAFA;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -216,6 +216,19 @@ body {
     background: #F3F4F6;
 }
 
+.latest-articles-container {
+    width: 100%;
+    background: #FAFAFA;
+}
+
+.latest-articles-head {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-weight: 300;
+}
+
 
 /* TABLET */
 
@@ -268,6 +281,20 @@ body {
     }
     .why-chose-easy-bank-div {
         width: 80%;
+        margin: auto;
+    }
+    .latest-articles-head {
+        margin: auto;
+        text-align: left;
+    }
+    .latest-articles-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .latest-articles-container {
+        width: 90%;
         margin: auto;
     }
 }

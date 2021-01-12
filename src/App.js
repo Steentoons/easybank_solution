@@ -10,11 +10,17 @@ import './App.css';
 import Button from "./components/js/Button"
 import Ul from "./components/js/Ul"
 import Easycard from "./components/js/Easycard"
+import Article from "./components/js/Article"
 
 import Api from "./images/icon-api.svg"
 import Budgeting from "./images/icon-budgeting.svg"
 import Onboarding from "./images/icon-onboarding.svg"
 import Online from "./images/icon-online.svg"
+
+import Confetti from "./images/image-confetti.jpg"
+import Currency from "./images/image-currency.jpg"
+import Plane from "./images/image-plane.jpg"
+import Restaurant from "./images/image-restaurant.jpg"
 
 function App() {
     const [BarVisible, setBarVisible] = useState(true) 
@@ -129,7 +135,40 @@ function App() {
             title="Open API"
             content="Manage your savings, investments, pension, and much more from one account. Tracking your moneyhas never been easier."
           />
+        </div>
+      </div>
 
+      <div className="latest-articles-container">
+        <div className="latest-articles-head">Latest Articles</div>
+        <div className="latest-articles-div">
+          
+          <Article 
+              source={Currency}
+              author="By Clarie Robinson"
+              title="Recieve money in any currency with no fees"
+              content="The world is getting snaller and we're becoming more mobile. So why should you be forced to only recive money in a single ..."
+            />
+
+            <Article 
+              source={Restaurant}
+              author="By Wilsion Huston"
+              title="Treat yourself without worrying about money"
+              content="Our simple budgeting feature allow you to seperteout your spendings and set realistic limits each month. That means you ..."
+            />
+
+            <Article 
+              source={Plane}
+              author="By Wilsion Huston"
+              title="Take your Easybank card whereever you go"
+              content="We want you to your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you ..."
+            />
+
+            <Article 
+              source={Confetti}
+              author="By Clarie Robinson"
+              title="Our invite-only Beta acoounts are now live!"
+              content="After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request and invite through the site ..."
+            />
         </div>
       </div>
     </div>
