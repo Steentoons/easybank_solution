@@ -76,6 +76,7 @@ body {
 
 .mobile-nav-list-div li {
     cursor: pointer;
+    font-weight: 400;
 }
 
 .mobile-nav-actual-list {
@@ -101,14 +102,9 @@ body {
     width: 100%;
 }
 
-
-/* .nav-actual-list:hover {
-    border-bottom: solid #31D35C 4px;
-    transition: border-width 0.6s linear;
-} */
-
 .nav-list-div-holder li {
     list-style: none;
+    font-weight: 400;
 }
 
 .navigation-container {
@@ -201,6 +197,9 @@ body {
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+    .navigation-container {
+        padding: 0 2.5em;
+    }
     .nav-desktop-button {
         display: flex;
         align-items: center;
@@ -210,6 +209,9 @@ body {
     }
     .nav-list-container {
         display: block;
+    }
+    .mobile-nav-list-container {
+        display: none;
     }
 }
 
@@ -256,5 +258,11 @@ body {
     .phone-mockups img {
         position: absolute;
         width: 48em;
+    }
+    .nav-list-container {
+        width: 40%;
+    }
+    .navigation-container {
+        padding: 0 5em;
     }
 }

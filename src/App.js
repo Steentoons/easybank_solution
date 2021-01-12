@@ -28,18 +28,21 @@ function App() {
         <div className={`mobile-nav-list-container ${closeClass}`}>
           <div className="mobile-nav-list-div">
             <ul>
-              <div className="mobile-nav-actual-list"><Ul name="Home" /></div>
-              <div className="mobile-nav-actual-list"><Ul name="About" /></div>
-              <div className="mobile-nav-actual-list"><Ul name="Contact" /></div>
-              <div className="mobile-nav-actual-list"><Ul name="Blog" /></div>
-              <div className="mobile-nav-actual-list"><Ul name="Careers" /></div>
+              <div className="mobile-nav-actual-list"><Ul name="Home"/></div>
+              <div className="mobile-nav-actual-list"><Ul name="About"/></div>
+              <div className="mobile-nav-actual-list"><Ul name="Contact"/></div>
+              <div className="mobile-nav-actual-list"><Ul name="Blog"/></div>
+              <div className="mobile-nav-actual-list"><Ul name="Careers"/></div>
             </ul>
           </div>
         </div>
+
         <div className="navigation-container">
+
           <div className="easybank-logo">
             <img src={Logo} alt="Easy Logo" />
           </div>
+
           <div className="nav-list-container">
             <div className="nav-list-div">
               <div className="nav-list-div-holder">
@@ -53,22 +56,11 @@ function App() {
               </div>
             </div>
           </div>
-          {/* <div className={`nav-list-container ${closeClass}`}>
-            <div className="nav-list-div">
-              <div className="nav-list-div-holder">
-                <ul>
-                  <div className="nav-actual-list"><Ul name="Home" /></div>
-                  <div className="nav-actual-list"><Ul name="About" /></div>
-                  <div className="nav-actual-list"><Ul name="Contact" /></div>
-                  <div className="nav-actual-list"><Ul name="Blog" /></div>
-                  <div className="nav-actual-list"><Ul name="Careers" /></div>
-                </ul>
-              </div>
-            </div>
-          </div> */}
+  
           <div className="nav-desktop-button">
             <Button />
           </div>
+
           <div className={`nav-phone-button ${barClass}`} onClick={changeVisibility}>
             <img className={"nav-phone-bars"} src={Bars} alt="Bars" />
           </div>
