@@ -2,10 +2,10 @@ import React from 'react'
 
 import "../css/Article.css"
 
-// import "../../images/image-confetti.jpg"
+import "../../images/image-confetti.jpg"
 import "../../images/image-currency.jpg"
-// import "../../images/image-plane.jpg"
-// import "../../images/image-resaurant.jpg"
+import "../../images/image-plane.jpg"
+import "../../images/image-restaurant.jpg"
 
 
 function Article(props) {

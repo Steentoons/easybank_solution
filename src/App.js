@@ -11,6 +11,7 @@ import Button from "./components/js/Button"
 import Ul from "./components/js/Ul"
 import Easycard from "./components/js/Easycard"
 import Article from "./components/js/Article"
+import SocialIcon from "./components/js/SocialIcon"
 
 import Api from "./images/icon-api.svg"
 import Budgeting from "./images/icon-budgeting.svg"
@@ -21,6 +22,14 @@ import Confetti from "./images/image-confetti.jpg"
 import Currency from "./images/image-currency.jpg"
 import Plane from "./images/image-plane.jpg"
 import Restaurant from "./images/image-restaurant.jpg"
+
+import Darklogo from "./images/dark-logo.svg"
+
+import Facebook from "./images/icon-facebook.svg"
+import Youtube from "./images/icon-youtube.svg"
+import Twitter from "./images/icon-twitter.svg"
+import Pinterest from "./images/icon-pinterest.svg"
+import Instagram from "./images/icon-instagram.svg"
 
 function App() {
     const [BarVisible, setBarVisible] = useState(true) 
@@ -169,6 +178,67 @@ function App() {
               title="Our invite-only Beta acoounts are now live!"
               content="After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request and invite through the site ..."
             />
+        </div>
+        
+      </div>
+
+      <div className="easy-bank-footer-container">
+        <div className="easy-bank-footer-div">
+          <div className="easy-bank-footer-logo-container">
+            <div className="easy-bank-footer-logo">
+              <img src={Darklogo} alt="Dark logo"/>
+            </div>
+            <div className="easy-bank-footer-social-icons">
+              
+              <SocialIcon 
+                source={Facebook}
+                name="Facebook"
+              />
+
+              <SocialIcon 
+                source={Youtube}
+                name="Youtube"
+              />
+
+              <SocialIcon 
+                source={Twitter}
+                name="Twitter"
+              />
+
+              <SocialIcon 
+                source={Pinterest}
+                name="Pinterest"
+              />
+
+              <SocialIcon 
+                source={Instagram}
+                name="Instagram"
+              />
+
+            </div>
+          </div>
+          <div className="easy-bank-footer-first-nav-container">
+            <ul className="footer-ul">
+              <Ul name="About Us"/>
+              <Ul name="Contact"/>
+              <Ul name="Blog"/>
+            </ul>
+          </div>
+          <div className="easy-bank-footer-last-nav-container">
+            <ul className="footer-ul">
+              <Ul name="Careers"/>
+              <Ul name="Support"/>
+              <Ul name="Privacy Policy"/>
+            </ul>
+          </div>
+          <div className="easy-bank-footer-request-invite-container">
+            <div className="easy-bank-footer-request-invite">
+              <Button />
+            </div>
+            <div className="easy-bank-footer-copyright paragraph">
+              © Easybank. All Rights Reserved
+            </div>
+          </div>
         </div>
       </div>
     </div>

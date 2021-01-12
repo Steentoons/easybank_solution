@@ -229,6 +229,61 @@ body {
     font-weight: 300;
 }
 
+.easy-bank-footer-container {
+    width: 100%;
+    background: #2D314D;
+    padding-bottom: 3em;
+}
+
+.easy-bank-footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.easy-bank-footer-logo img {
+    width: 11em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.easy-bank-footer-social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.social-icons-div:first-child {
+    margin-left: 1em;
+}
+
+.social-icons-div {
+    margin-right: 1em;
+}
+
+.footer-ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: .8em;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.easy-bank-footer-request-invite {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.easy-bank-footer-copyright {
+    margin-top: 1em;
+    font-weight: 400;
+}
+
 
 /* TABLET */
 
