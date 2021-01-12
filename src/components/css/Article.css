@@ -53,4 +53,8 @@
     .latest-articles-component {
         width: 24%;
     }
+    .latest-articles-img {
+        height: 12em;
+        overflow: hidden;
+    }
 }
