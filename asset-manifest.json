@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/easybank_solution/static/css/main.ef934fd4.chunk.css",
+    "main.js": "/easybank_solution/static/js/main.7c73d68d.chunk.js",
+    "main.js.map": "/easybank_solution/static/js/main.7c73d68d.chunk.js.map",
+    "runtime-main.js": "/easybank_solution/static/js/runtime-main.c1f66206.js",
+    "runtime-main.js.map": "/easybank_solution/static/js/runtime-main.c1f66206.js.map",
+    "static/js/2.0e056d49.chunk.js": "/easybank_solution/static/js/2.0e056d49.chunk.js",
+    "static/js/2.0e056d49.chunk.js.map": "/easybank_solution/static/js/2.0e056d49.chunk.js.map",
+    "index.html": "/easybank_solution/index.html",
+    "static/css/main.ef934fd4.chunk.css.map": "/easybank_solution/static/css/main.ef934fd4.chunk.css.map",
+    "static/js/2.0e056d49.chunk.js.LICENSE.txt": "/easybank_solution/static/js/2.0e056d49.chunk.js.LICENSE.txt",
+    "static/media/bg-intro-desktop.8be308fd.svg": "/easybank_solution/static/media/bg-intro-desktop.8be308fd.svg",
+    "static/media/dark-logo.58e625c6.svg": "/easybank_solution/static/media/dark-logo.58e625c6.svg",
+    "static/media/icon-api.74c8ad17.svg": "/easybank_solution/static/media/icon-api.74c8ad17.svg",
+    "static/media/icon-budgeting.ad716997.svg": "/easybank_solution/static/media/icon-budgeting.ad716997.svg",
+    "static/media/icon-close.c2e36e04.svg": "/easybank_solution/static/media/icon-close.c2e36e04.svg",
+    "static/media/icon-facebook.1e9b3338.svg": "/easybank_solution/static/media/icon-facebook.1e9b3338.svg",
+    "static/media/icon-hamburger.b0d311fe.svg": "/easybank_solution/static/media/icon-hamburger.b0d311fe.svg",
+    "static/media/icon-instagram.54d3962e.svg": "/easybank_solution/static/media/icon-instagram.54d3962e.svg",
+    "static/media/icon-onboarding.d74aed64.svg": "/easybank_solution/static/media/icon-onboarding.d74aed64.svg",
+    "static/media/icon-online.b0622b15.svg": "/easybank_solution/static/media/icon-online.b0622b15.svg",
+    "static/media/icon-pinterest.45264b1d.svg": "/easybank_solution/static/media/icon-pinterest.45264b1d.svg",
+    "static/media/icon-twitter.01a8907d.svg": "/easybank_solution/static/media/icon-twitter.01a8907d.svg",
+    "static/media/icon-youtube.7d6960fb.svg": "/easybank_solution/static/media/icon-youtube.7d6960fb.svg",
+    "static/media/image-confetti.67921b11.jpg": "/easybank_solution/static/media/image-confetti.67921b11.jpg",
+    "static/media/image-currency.1b385bf9.jpg": "/easybank_solution/static/media/image-currency.1b385bf9.jpg",
+    "static/media/image-mockups.48d35b17.png": "/easybank_solution/static/media/image-mockups.48d35b17.png",
+    "static/media/image-plane.03db115d.jpg": "/easybank_solution/static/media/image-plane.03db115d.jpg",
+    "static/media/image-restaurant.1951b576.jpg": "/easybank_solution/static/media/image-restaurant.1951b576.jpg",
+    "static/media/logo.4d7cebc5.svg": "/easybank_solution/static/media/logo.4d7cebc5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1f66206.js",
+    "static/js/2.0e056d49.chunk.js",
+    "static/css/main.ef934fd4.chunk.css",
+    "static/js/main.7c73d68d.chunk.js"
+  ]
+}
