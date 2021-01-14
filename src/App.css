@@ -116,7 +116,8 @@ body {
     background: white;
     display: flex;
     justify-content: space-between;
-    padding: 0 6em;
+    padding: 0;
+    padding-left: 1em;
     height: 5.5em;
 }
 
