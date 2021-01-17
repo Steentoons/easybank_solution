@@ -5,6 +5,10 @@ body {
     overflow-x: hidden;
 }
 
+li {
+    list-style: none;
+}
+
 * {
     font-family: 'Public Sans', sans-serif;
 }
@@ -19,12 +23,21 @@ body {
     text-align: center;
     font-weight: 300;
     color: #9698A6;
+    font-size: 1rem;
 }
 
 .container {
     box-sizing: border-box;
     position: relative;
     width: 100%;
+}
+
+.overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.248);
+    width: 100%;
+    height: 100vh;
+    z-index: +3;
 }
 
 .nav-list-container {
@@ -46,6 +59,24 @@ body {
     padding: 0;
 }
 
+.mobile-nav-list-div {
+    border-radius: 5px;
+}
+
+.mobile-nav-list {
+    padding: 0.75em 0;
+}
+
+.mobile-nav-list li {
+    font-weight: 700;
+    padding: 0.75em 0;
+    color: #1F2130;
+}
+
+.mobile-nav-list li:hover {
+    color: #31D35C;
+}
+
 .nav-actual-list {
     box-sizing: border-box;
     height: 5.5em;
@@ -65,9 +96,9 @@ body {
     position: absolute;
     z-index: +3;
     background: white;
-    margin-top: 6.5em;
-    padding-bottom: 1.5em;
-    padding-top: .5em;
+    margin-top: 5.5em;
+    padding-bottom: 0;
+    padding-top: 0em;
 }
 
 .mobile-nav-list-div ul {
@@ -88,19 +119,20 @@ body {
     margin: 0;
 }
 
-.nav-actual-list::after {
+.desktop-nav-list li::after {
     box-sizing: border-box;
     content: "";
     display: block;
-    height: 2.3em;
+    height: 1.8em;
     width: 0%;
-    border-bottom: solid #31D35C 4px;
     margin-top: 30;
-    transition: 0.3s;
+    border-bottom: solid #ffffff 4px;
+    transition: .3s;
 }
 
-.nav-actual-list:hover:after {
+.desktop-nav-list li:hover:after {
     width: 100%;
+    border-bottom: solid #31D35C 4px;
 }
 
 .nav-list-div-holder li {
@@ -118,11 +150,12 @@ body {
     justify-content: space-between;
     padding: 0;
     padding-left: 1em;
-    height: 5.5em;
+    /* height: 5.5em; */
 }
 
 .easybank-logo {
-    padding-top: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 .not-visible {
@@ -139,7 +172,7 @@ body {
 }
 
 .nav-phone-button {
-    padding: 2em 1em;
+    padding: 1.5em 1.5em;
     cursor: pointer;
 }
 
@@ -166,7 +199,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: -2.5em;
+    margin-top: -3.6em;
 }
 
 .phone-mockups img {
@@ -272,6 +305,11 @@ body {
     margin-top: .8em;
     cursor: pointer;
     font-weight: 400;
+    color: white;
+}
+
+.footer-ul li:hover {
+    color: #31D35C;
 }
 
 .easy-bank-footer-request-invite {
@@ -289,10 +327,33 @@ body {
     cursor: pointer;
 }
 
+#bg_desktop {
+    display: none;
+}
+
 
 /* TABLET */
 
+@media screen and (min-width: 500px) {
+    #bg_mobile {
+        display: none;
+    }
+    #bg_desktop {
+        display: block;
+    }
+}
+
 @media screen and (min-width: 768px) {
+    .desktop-nav-list {
+        box-sizing: border-box;
+    }
+    .desktop-nav-list li {
+        box-sizing: border-box;
+        display: block;
+        padding: 1.5em .2em 0;
+        cursor: pointer;
+        color: #9698A6;
+    }
     .navigation-container {
         padding: 0 2.5em;
     }
@@ -411,8 +472,8 @@ body {
         width: 65%;
     }
     .creative-gradient {
-        box-sizing: border-box;
         min-height: 40em;
+        overflow: hidden;
     }
     .phone-mockups {
         box-sizing: border-box;
@@ -421,12 +482,13 @@ body {
         margin-top: -2em;
     }
     .creative-gradient img {
-        box-sizing: border-box;
-        width: 100%;
+        position: absolute;
+        width: 70rem;
+        margin-top: -9rem;
     }
     .phone-mockups img {
-        position: absolute;
         width: 48em;
+        margin-left: 20em;
     }
     .nav-list-container {
         width: 40%;

@@ -4,6 +4,7 @@ import Logo from "./images/logo.svg"
 import Bars from "./images/icon-hamburger.svg"
 import Close from "./images/icon-close.svg"
 import BgDesktop from "./images/bg-intro-desktop.svg"
+import BgMobile from "./images/bg-intro-mobile.svg"
 import PhoneMockups from "./images/image-mockups.png"
 import './App.css';
  
@@ -46,14 +47,15 @@ function App() {
   return (
     <div className="container">
       <div className="nav-container-holder">
+        <div className={`overlay ${closeClass}`}></div>
         <div className={`mobile-nav-list-container ${closeClass}`}>
           <div className="mobile-nav-list-div">
-            <ul>
-              <div className="mobile-nav-actual-list"><Ul name="Home"/></div>
-              <div className="mobile-nav-actual-list"><Ul name="About"/></div>
-              <div className="mobile-nav-actual-list"><Ul name="Contact"/></div>
-              <div className="mobile-nav-actual-list"><Ul name="Blog"/></div>
-              <div className="mobile-nav-actual-list"><Ul name="Careers"/></div>
+            <ul className="mobile-nav-list">
+              <Ul name="Home"/>
+              <Ul name="About"/>
+              <Ul name="Contact"/>
+              <Ul name="Blog"/>
+              <Ul name="Careers"/>
             </ul>
           </div>
         </div>
@@ -67,12 +69,12 @@ function App() {
           <div className="nav-list-container">
             <div className="nav-list-div">
               <div className="nav-list-div-holder">
-                <ul>
-                  <div className="nav-actual-list"><Ul name="Home" /></div>
-                  <div className="nav-actual-list"><Ul name="About" /></div>
-                  <div className="nav-actual-list"><Ul name="Contact" /></div>
-                  <div className="nav-actual-list"><Ul name="Blog" /></div>
-                  <div className="nav-actual-list"><Ul name="Careers" /></div>
+                <ul className="desktop-nav-list">
+                  <Ul name="Home" />
+                  <Ul name="About" />
+                  <Ul name="Contact" />
+                  <Ul name="Blog" />
+                  <Ul name="Careers" />
                 </ul>
               </div>
             </div>
@@ -97,7 +99,8 @@ function App() {
             <img src={PhoneMockups} alt="Phone Mockups" />
           </div>
           <div className="creative-gradient">
-            <img src={BgDesktop} alt="BG Desktop" />
+            <img src={BgMobile} id="bg_mobile" alt="BG Mobile"/>
+            <img src={BgDesktop} id="bg_desktop" alt="BG Desktop" />
           </div>
         </div>
 

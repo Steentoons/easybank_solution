@@ -4,7 +4,7 @@ import "../../App.css"
 function Ul(props) {
     return (
         <>
-           <li className="paragraph">{props.name}</li> 
+           <li className="">{props.name}</li> 
         </>
     )
 }
