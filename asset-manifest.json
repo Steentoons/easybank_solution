@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/easybank_solution/static/css/main.3b19f7a5.chunk.css",
-    "main.js": "/easybank_solution/static/js/main.7c73d68d.chunk.js",
-    "main.js.map": "/easybank_solution/static/js/main.7c73d68d.chunk.js.map",
+    "main.css": "/easybank_solution/static/css/main.1e5a38d6.chunk.css",
+    "main.js": "/easybank_solution/static/js/main.7dde66dd.chunk.js",
+    "main.js.map": "/easybank_solution/static/js/main.7dde66dd.chunk.js.map",
     "runtime-main.js": "/easybank_solution/static/js/runtime-main.c1f66206.js",
     "runtime-main.js.map": "/easybank_solution/static/js/runtime-main.c1f66206.js.map",
     "static/js/2.0e056d49.chunk.js": "/easybank_solution/static/js/2.0e056d49.chunk.js",
     "static/js/2.0e056d49.chunk.js.map": "/easybank_solution/static/js/2.0e056d49.chunk.js.map",
     "index.html": "/easybank_solution/index.html",
-    "static/css/main.3b19f7a5.chunk.css.map": "/easybank_solution/static/css/main.3b19f7a5.chunk.css.map",
+    "static/css/main.1e5a38d6.chunk.css.map": "/easybank_solution/static/css/main.1e5a38d6.chunk.css.map",
     "static/js/2.0e056d49.chunk.js.LICENSE.txt": "/easybank_solution/static/js/2.0e056d49.chunk.js.LICENSE.txt",
     "static/media/bg-intro-desktop.8be308fd.svg": "/easybank_solution/static/media/bg-intro-desktop.8be308fd.svg",
+    "static/media/bg-intro-mobile.c2ed38d0.svg": "/easybank_solution/static/media/bg-intro-mobile.c2ed38d0.svg",
     "static/media/dark-logo.58e625c6.svg": "/easybank_solution/static/media/dark-logo.58e625c6.svg",
     "static/media/icon-api.74c8ad17.svg": "/easybank_solution/static/media/icon-api.74c8ad17.svg",
     "static/media/icon-budgeting.ad716997.svg": "/easybank_solution/static/media/icon-budgeting.ad716997.svg",
@@ -33,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.c1f66206.js",
     "static/js/2.0e056d49.chunk.js",
-    "static/css/main.3b19f7a5.chunk.css",
-    "static/js/main.7c73d68d.chunk.js"
+    "static/css/main.1e5a38d6.chunk.css",
+    "static/js/main.7dde66dd.chunk.js"
   ]
 }
