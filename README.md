@@ -8,7 +8,6 @@ Check out [my solution](https://www.frontendmentor.io/solutions/react-js-html-an
 * CSS
 * Javascript
 * React Js
-* Styled components
 * Flexbox
 * ES6
 
